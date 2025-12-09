@@ -26,7 +26,9 @@
           <li><a href="#about">About</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#skills">Skills</a></li>
-          <li><a href="other/LucasvanKempenCV.pdf" target="_blank">CV</a></li>
+          <li class="nav-quick">
+            <a href="other/LucasvanKempenCV.pdf" target="_blank">CV</a>
+          </li>
           <li>
             <a href="mailto:Lmvankempen@icloud.com" class="contact-button"
               >Contact</a
@@ -56,15 +58,24 @@
           </div>
         </div>
 
-        <img src="images/lucasindeximage.png" alt="Lucas" class="lucas-image" />
+        <img
+          src="images/lucasindeximage2.png"
+          alt="Lucas"
+          class="lucas-image"
+        />
       </section>
 
       <section id="about" class="about-me-section">
-        <img
-          src="images/polaroidimage.png"
-          alt="polaroid image"
-          class="image-polaroid"
-        />
+        <button
+          class="about-image-button"
+          aria-label="View portrait full screen"
+        >
+          <img
+            src="images/polaroidimage2.png"
+            alt="Portrait of Lucas van Kempen"
+            class="image-polaroid"
+          />
+        </button>
 
         <div class="about-me-text">
           <h1>About me</h1>
@@ -80,26 +91,26 @@
             and technical work into one. I also have a passion for
             entrepreneurship, which I can pursue with this as well. I am
             currently working on an app concept that I may want to turn into a
-            side hustle called TastePoints. I want to learn much more about app
-            development in general, and gain experience working in the real
-            world outside of school.
+            side hustle called TastePoints.
           </p>
         </div>
       </section>
 
       <section id="projects" class="projects-section">
         <h1>Projects</h1>
+        <p class="section-lead">
+          A focused set of work showing how I solve problems across media.
+        </p>
         <p>
           Instead of adding as many projects as I could, I chose the three most
-          important ones that show my creativity. I wanted there to be more in
-          the app development part, but I only started doing that this semester.
-          I am eager to learn more about it in the future.
+          important ones that show my creativity.
         </p>
 
         <div class="projects-grid">
           <a href="tastepoints.html">
             <div class="project-tile">
               <img src="images/tastepointsphonescreen.png" alt="TastePoints" />
+              <span class="project-tag">App concept</span>
               <h2>TastePoints</h2>
               <p>
                 An app concept I’m developing to enhance restaurant guest
@@ -111,6 +122,7 @@
           <a href="vkanimation.html">
             <div class="project-tile">
               <img src="images/vkanimation.png" alt="VK Animation" />
+              <span class="project-tag">3D Animation</span>
               <h2>VK Animation</h2>
               <p>The 3D animation videos I made with my company.</p>
             </div>
@@ -119,6 +131,7 @@
           <a href="fitbyte.html">
             <div class="project-tile">
               <img src="images/fitbytecover.png" alt="FitByte" />
+              <span class="project-tag">Student project</span>
               <h2>FitByte</h2>
               <p>The first app I made for the semester "App Development"</p>
             </div>
@@ -128,26 +141,29 @@
 
       <section id="skills" class="skills-section">
         <h1>Skills</h1>
+        <p class="section-lead">
+          Tools I use to design and build digital experiences.
+        </p>
         <div class="skills-images">
           <div class="skills-track">
-            <img src="images/aftereffectsicon.png" alt="After Effects" />
-            <img src="images/photoshopicon.png" alt="photoshop" />
-            <img src="images/blendericon.png" alt="Blender" />
-            <img src="images/htmlicon.png" alt="html" />
-            <img src="images/cssicon.png" alt="css" />
-            <img src="images/swifticon.png" alt="swift" />
+            <img src="images/aftereffectsicon2.png" alt="After Effects" />
+            <img src="images/photoshopicon2.png" alt="photoshop" />
+            <img src="images/blendericon2.png" alt="Blender" />
+            <img src="images/htmlicon2.png" alt="html" />
+            <img src="images/cssicon2.png" alt="css" />
+            <img src="images/swifticon2.png" alt="swift" />
             <img src="images/figmaicon.png" alt="figma" />
-            <img src="images/giticon.png" alt="git" />
+            <img src="images/giticon2.png" alt="git" />
             <img src="images/Xcodeicon.png" alt="Xcode" />
 
-            <img src="images/aftereffectsicon.png" alt="After Effects" />
-            <img src="images/photoshopicon.png" alt="photoshop" />
-            <img src="images/blendericon.png" alt="Blender" />
-            <img src="images/htmlicon.png" alt="html" />
-            <img src="images/cssicon.png" alt="css" />
-            <img src="images/swifticon.png" alt="swift" />
+            <img src="images/aftereffectsicon2.png" alt="After Effects" />
+            <img src="images/photoshopicon2.png" alt="photoshop" />
+            <img src="images/blendericon2.png" alt="Blender" />
+            <img src="images/htmlicon2.png" alt="html" />
+            <img src="images/cssicon2.png" alt="css" />
+            <img src="images/swifticon2.png" alt="swift" />
             <img src="images/figmaicon.png" alt="figma" />
-            <img src="images/giticon.png" alt="git" />
+            <img src="images/giticon2.png" alt="git" />
             <img src="images/Xcodeicon.png" alt="Xcode" />
           </div>
         </div>
@@ -155,10 +171,43 @@
     </main>
 
     <footer>
-      <div class="top-section"></div>
+      <div class="footer-content">
+        <a href="mailto:Lmvankempen@icloud.com">Email</a>
+        <span>•</span>
+        <a
+          href="https://www.linkedin.com/in/lucas-van-kempen-3b86251ba/"
+          target="_blank"
+          >LinkedIn</a
+        >
+        <span>•</span>
+        <a href="other/LucasvanKempenCV.pdf" target="_blank">CV</a>
+      </div>
+      <div class="footer-nav">
+        <a href="index.html">Home</a>
+        <span>•</span>
+        <a href="#about">About</a>
+        <span>•</span>
+        <a href="#projects">Projects</a>
+      </div>
       <hr class="footer-line" />
       <div class="bottom-section"></div>
     </footer>
+
+    <div class="image-modal" aria-hidden="true">
+      <div class="image-modal__backdrop"></div>
+      <div
+        class="image-modal__content"
+        role="dialog"
+        aria-modal="true"
+        aria-label="Portrait fullscreen"
+      >
+        <button class="modal-close" aria-label="Close image">×</button>
+        <img
+          src="images/polaroidimage2.png"
+          alt="Portrait of Lucas van Kempen"
+        />
+      </div>
+    </div>
 
     <script>
       const hamburger = document.querySelector(".hamburger");
@@ -167,6 +216,41 @@
       hamburger.addEventListener("click", () => {
         hamburger.classList.toggle("active");
         nav.classList.toggle("open");
+      });
+
+      const aboutImageButton = document.querySelector(".about-image-button");
+      const imageModal = document.querySelector(".image-modal");
+      const modalClose = document.querySelector(".modal-close");
+      const modalBackdrop = document.querySelector(".image-modal__backdrop");
+
+      const closeModal = () => {
+        if (!imageModal) return;
+        imageModal.classList.remove("open");
+        imageModal.setAttribute("aria-hidden", "true");
+      };
+
+      const openModal = () => {
+        if (!imageModal) return;
+        imageModal.classList.add("open");
+        imageModal.setAttribute("aria-hidden", "false");
+      };
+
+      if (aboutImageButton && imageModal) {
+        aboutImageButton.addEventListener("click", openModal);
+      }
+
+      if (modalClose) {
+        modalClose.addEventListener("click", closeModal);
+      }
+
+      if (modalBackdrop) {
+        modalBackdrop.addEventListener("click", closeModal);
+      }
+
+      document.addEventListener("keydown", (e) => {
+        if (e.key === "Escape") {
+          closeModal();
+        }
       });
     </script>
   </body>
